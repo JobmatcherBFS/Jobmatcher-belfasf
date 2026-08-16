@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const BACKEND_URL = 'https://jobmatcher-backend-prod.railway.app';
+const BACKEND_URL = 'https://jobmatcher-backend-production.up.railway.app';
 
 export default function JobMatcherApp() {
   const [screen, setScreen] = useState('landing');
